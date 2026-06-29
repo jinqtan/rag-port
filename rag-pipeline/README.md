@@ -1,4 +1,3 @@
-cat > week1_rag_pipeline/README.md << 'EOF'
 # Week 1 — RAG Pipeline with PDF Ingestion
 
 ## What this does
