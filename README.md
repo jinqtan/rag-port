@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # RAG Portfolio — LLM & Generative AI Projects
 
 Project series building real LLM applications
