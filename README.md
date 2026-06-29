@@ -1,13 +1,22 @@
-# rag-port
-A RAG system knows what it can read and what it does NOT know
+# RAG Portfolio — LLM & Generative AI Projects
 
-# Description
-A RAG pipeline from scratch that ingests PDFs, chunks and embeds the content using sentence-transformers, stores vectors persistently in ChromaDB, applies relevance threshold filtering to avoid passing irrelevant context to the LLM, and gracefully handles out-of-scope questions. The system only re-embeds on first run — subsequent queries load from disk.
+Project series building real LLM applications
+from RAG pipelines to fine-tuning to multimodal document extraction.
 
-# How does it work
-- PDF extraction with PyMuPDF 
-- Chunks improved to 11, cleaner boundaries
-- Semantic embeddings with sentence-transformers
-- Vector storage with ChromaDB
-- Relevance scores showing on every chunk
-- Weather question: all 3 chunks FILTERED OUT, graceful fallback answer
+## Projects
+
+| Week | Project | Status |
+|------|---------|--------|
+| 1 | RAG Pipeline with PDF Ingestion | Complete |
+| 2 | Fine-tuning with LoRA/PEFT | In Progress |
+| 3 | Multimodal Document Extraction | Upcoming |
+| 4 | End-to-End LLM Application | Upcoming |
+
+## Skills demonstrated
+- Retrieval-Augmented Generation (RAG)
+- Vector databases (ChromaDB)
+- Semantic embeddings (sentence-transformers)
+- LLM fine-tuning with LoRA/PEFT
+- Multimodal document understanding
+- Python, PyTorch, Hugging Face
+EOF

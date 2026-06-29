@@ -1,0 +1,6 @@
+langchain==1.3.9
+chromadb
+sentence-transformers
+pymupdf
+reportlab
+EOF
